@@ -1,0 +1,27 @@
+{
+    "name": "grandmasterx/yii2-multithreading",
+    "description": "Multithreading class for php 5.3+",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GrandMasterX",
+            "email": "zgrandmasterz@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/GrandMasterX/php-multithreading.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "php\\multithreading\\": ""
+        }
+    }
+}
